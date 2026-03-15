@@ -1,0 +1,5 @@
+[
+  {"name": "每日饮水", "frequency": "DAILY", "targetValue": 2000, "unit": "ML", "stageCount": 4},
+  {"name": "阅读", "frequency": "DAILY", "targetValue": 30, "unit": "MINUTES", "stageCount": 3},
+  {"name": "运动", "frequency": "WEEKLY", "targetValue": 3, "unit": "TIMES", "stageCount": 3}
+]

@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+
+这是一个android应用项目，使用gradle构建，kotlin为主要编程语言，compose范式。doc文件夹下的prd.md是该项目对应产品的产品文档，project.md是工程结构的文档，在每一次进行了较大代码改动或需求迭代时，需要同时更新文档（文字说明必须精简，并且必须是同步变更覆盖原描述，而不是新增修改记录）。
+
+**编译检查**：涉及 Kotlin/构建的改动后，用项目根目录下 `./scripts/compile-debug.sh` 校验编译是否通过（终端未配 JAVA_HOME 时该脚本会使用 Android Studio JBR）。
